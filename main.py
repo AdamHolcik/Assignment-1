@@ -44,6 +44,7 @@ for x in range(num,0,-1): #for loop with variable x, first time it is 5, and low
     for i in range(x,0,-1): #for loop that prints the desired awnswer, first time x is five,so it runs 5 times, next time it runs 4 times and so on.
       print(i, end='') #prints the actuall numbers, when it runs 5 times it prints all 5 numbers; 54321, when it runs 4 times it prints 4 numbers; 4321, and so on.
     print('') #makes sure that each new line is actually on a new line
+#NOTE: I finished this one and number 5 and went to number 6, but after that when I was double checking everything I realised that this one was removeing the highest number each time, and not the lowest (54321, then 4321 instead of 54321 then 5432), I have not been bale to figure out how to swap it around.
 #problem 5
 num = int(input('please enter a number: ')) #sets variable num to the users input
 x = 0 # sets variable x to 0, variable x is responsible for making sure that the numbers are displayed properly
